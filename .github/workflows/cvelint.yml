@@ -45,5 +45,5 @@ jobs:
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
         HF_USERNAME: ${{ secrets.HF_USERNAME }}
-        run: git push https://$HF_USERNAME:$HF_TOKEN@huggingface.co/dataset/cvelist/CVEV5Errors main
+      run: git push https://$HF_USERNAME:$HF_TOKEN@huggingface.co/dataset/cvelist/CVEV5Errors main
     
